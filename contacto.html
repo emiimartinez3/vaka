@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./imgvaka/vakaicon.jpeg">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header class="contach">
+    <nav class="nav">
+        <h1 class="nav-logo">VAKA & co.</h1>
+        
+        <ul class="nav-links">
+            <li><a href="./index.html" class="nav-item">INICIO</a></li>
+            <li><a href="./producto.html"class="nav-item">PRODUCTOS</a></li>
+            <li><a href="./nosotros.html"class="nav-item">NOSOTROS</a></li>
+            <li><a href="./contacto.html"class="nav-item">CONTACTO</a></li>
+            <li><a href="./registro.html"><i class='bx bxs-user-rectangle nav-item extra' ></i></a></li>
+            <li><a href="#"><i class='bx bx-shopping-bag nav-item' id="nav-cart"></i></a></li>            
+        </ul>
+
+    </nav>
+    </header>
+     
+    <section class="secform">
+            <form id="contact-form" class="formulario">
+                <h1 class="forcont">Contactenos</h1>
+
+
+                <label for="name">Nombre</label>
+                <input type="text"  id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email"  id="email" name="email" required>
+                 
+                <label for="message">Mensaje</label>
+                <textarea cols="30" rows="10"  id="message" name="message" required></textarea>
+
+                <button type="submit" class="btnform">Enviar</button>
+            </form>
+    </section>
+
+    <footer class="fufu">
+        <div class="imgft">
+          <img src="./imgvaka/vakaicon.jpeg">
+        </div>
+        
+        <div class="enlaces links">
+          <div>
+            <h2>VAKA & co.</h2>
+            <a href="#">Inicio</a>
+            <a href="#">Productos</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Contacto</a>
+            <a href="#">Carrito</a>
+          </div>
+        </div>
+    </footer>
+    <footer class="fofo">
+      <div class="derechos">
+        <span> © Todos los derechos reservados por VAKA & co.</span>
+      </div>
+      <div class="links">
+        <a href="#"><i class='bx bxl-instagram'></i></a>
+        <a href="#"><i class='bx bxl-whatsapp'></i></a>
+        <a href="" id="logout"><i class='bx bx-user-x'></i>Cerrar sesion</a>
+      </div>
+    </footer>
+    
+
+    <script src="./js/contacto.js"></script>
+   
+
+</body>
+</html>
